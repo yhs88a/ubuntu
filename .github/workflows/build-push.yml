@@ -12,6 +12,7 @@ on:
 env:
   DOCKER_USER: ${{ secrets.DOCKER_USER }}
   DOCKER_SECRET: ${{ secrets.DOCKER_SECRET }}
+  GH_SECRET: ${{ secrets.GH_SECRET }}
   OWNER: ${{ github.repository_owner }}
   GROUP: base
   FILE: ubuntu
